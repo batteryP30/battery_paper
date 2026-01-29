@@ -39,13 +39,3 @@ For each battery, the first 30% of cycles are used for training and the remainin
 
 Model performance is measured using Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
 
----
-
-## Key Results
-
-- The stacked ensemble model consistently outperforms the single-model baseline under battery holdout evaluation.
-- For constant-discharge batteries, the stacked model achieves an average RMSE of approximately 0.43 and an MAE of approximately 0.30, demonstrating strong generalization to unseen cells.
-- Performance degrades significantly for variable-discharge batteries due to protocol-induced distribution shifts and limited training data.
-- Compact, degradation-focused feature sets selected through stability-driven feature selection generalize better than high-dimensional feature representations.
-- Early-life prediction exhibits higher uncertainty and error, particularly when degradation signals are weak and dominated by transient electrochemical effects.
-
