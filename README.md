@@ -1,4 +1,4 @@
-# Battery-Level and Cross-Dataset Lithium-Ion SoH Reproducibility Code
+# Battery SoH Code
 
 This repository contains the Python source used to reproduce the computational
 workflow reported in **Battery-Level and Cross-Dataset Generalization of
