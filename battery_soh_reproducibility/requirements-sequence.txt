@@ -1,0 +1,3 @@
+# Optional, needed only for scripts/modeling/sequence_3p6.py --stage train
+-r requirements.txt
+torch>=2.1

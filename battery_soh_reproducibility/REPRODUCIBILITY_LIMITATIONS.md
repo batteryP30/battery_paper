@@ -55,3 +55,15 @@ retrained during packaging. Source compilation, import/CLI checks, unit tests,
 baseline recomputation, strict-feature contract checks, manuscript-table
 reconstruction from the frozen outputs, and frozen-result regression checks
 were executed. See `VERIFICATION.md` for the exact distinction.
+
+## Later experiment coverage and independent re-execution
+
+The new local scripts are not a claim that every submitted result has been fully rerun on the current machine. The original 708 MB study raw-data ZIP and the archived fold-level checkpoints were **not** inside `battery_paper.zip`. A separate saved frozen dataset and several experiment workbooks were available in the conversation and used for selective smoke tests, not bundled into the final source archive.
+
+- The executable true-3.6-V censoring and quality-screened rebuild code is new and must be compared with Step 11G and CALCE quality-sensitivity workbooks after full raw-data re-execution.
+- The PyTorch LSTM/Transformer source is a transparent reimplementation of the documented architectures, not an original recovered source snapshot. Minor choices such as deterministic validation battery identity and optimizer/library versions can affect performance. Do not claim byte-level equality to the archived benchmark without fold-by-fold verification.
+- The original full matched Step 11HB low-pass/noise LOBO trainer was not available. `lowpass_feature_diagnostic.py` verifies the filter's within-cycle/step behavior and effect on features, but **does not** reproduce Step 11HB prediction RMSE; the manuscript's matched-filter result remains supported by its saved workbook.
+- The original calibrated NASA CSV input derivation from NASA native source distributions is not available. The reproducibility boundary remains the study-input CSVs inside the original `collab.zip`.
+- Original feature-selection threshold heatmaps are intentionally reconstructed from preserved diagnostics and are not falsely represented as a rerun of a lost historical grid search.
+
+No automatic claim of publication-scale performance is made by the `--help` and small-fixture tests. A complete release should include a version-pinned raw-data source checksum manifest, a full local execution record, and links to immutable experiment outputs.
