@@ -4,6 +4,7 @@ This repository contains the Python source used to reproduce the computational
 workflow reported in **Battery-Level and Cross-Dataset Generalization of
 Data-Driven Lithium-Ion Battery State-of-Health Estimation**.
 
+
 The final analysis is deliberately organized around information availability.
 The primary models are strict capacity-independent models: they do not use
 same-cycle full discharge capacity, energy or duration, endpoint-equivalent
