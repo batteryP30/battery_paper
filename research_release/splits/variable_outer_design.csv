@@ -1,0 +1,7 @@
+holdout_battery,source,observation_scope,training_batteries,provenance
+CS2_3,CALCE,retrospective_macrocycle,CS2_9|RW3|RW4|RW5|RW6,source script battery list and documented grouped LOBO; run-specific split log not recovered
+CS2_9,CALCE,retrospective_macrocycle,CS2_3|RW3|RW4|RW5|RW6,source script battery list and documented grouped LOBO; run-specific split log not recovered
+RW3,NASA,pre_reference,CS2_3|CS2_9|RW4|RW5|RW6,source script battery list and documented grouped LOBO; run-specific split log not recovered
+RW4,NASA,pre_reference,CS2_3|CS2_9|RW3|RW5|RW6,source script battery list and documented grouped LOBO; run-specific split log not recovered
+RW5,NASA,pre_reference,CS2_3|CS2_9|RW3|RW4|RW6,source script battery list and documented grouped LOBO; run-specific split log not recovered
+RW6,NASA,pre_reference,CS2_3|CS2_9|RW3|RW4|RW5,source script battery list and documented grouped LOBO; run-specific split log not recovered

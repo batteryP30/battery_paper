@@ -1,0 +1,24 @@
+Step 11N: 3.6 V censored observation — matched-training cohort baseline experiment
+
+All models evaluated on the same 4,589 held-out battery/cycle observations.
+The baseline models were retrained on the same 3.6 V-eligible training cycle population.
+Their inputs are only age or a constant. HGB 3.6 V predictions are frozen from Step 11G.
+This study is still conditional on the originally selected 70-100% SoH range.
+
+                                     Model  Batteries  Observations  EqualBattery_RMSE  EqualBattery_MAE
+TRUE_3P6V_CENSORED_ELECTRICAL_PLUS_AGE_HGB         10          4589           1.715947          1.298717
+         TRUE_3P6V_CENSORED_ELECTRICAL_HGB         10          4589           2.282087          1.775924
+                        AGE_ONLY_HGB_TUNED         10          4589           5.635523          4.285212
+                           AGE_ONLY_LINEAR         10          4589           6.549173          5.768219
+               TRAINING_MEAN_EQUAL_BATTERY         10          4589           7.807668          6.698407
+
+Paired differences: censored electrical HGB minus indicated baseline (negative = better):
+                            Censored_Model                    Baseline  Mean_Paired_RMSE_Difference_Censored_Minus_Baseline  CI95_Lower  CI95_Upper  Batteries  Bootstrap_Repetitions  Bootstrap_Seed  CI_Excludes_Zero
+         TRUE_3P6V_CENSORED_ELECTRICAL_HGB TRAINING_MEAN_EQUAL_BATTERY                                            -5.525580   -6.753054   -4.229180         10                  20000              42              True
+         TRUE_3P6V_CENSORED_ELECTRICAL_HGB             AGE_ONLY_LINEAR                                            -4.267085   -6.247227   -2.305937         10                  20000              42              True
+         TRUE_3P6V_CENSORED_ELECTRICAL_HGB          AGE_ONLY_HGB_TUNED                                            -3.353436   -4.427317   -2.242996         10                  20000              42              True
+TRUE_3P6V_CENSORED_ELECTRICAL_PLUS_AGE_HGB TRAINING_MEAN_EQUAL_BATTERY                                            -6.091721   -7.149157   -5.013279         10                  20000              42              True
+TRUE_3P6V_CENSORED_ELECTRICAL_PLUS_AGE_HGB             AGE_ONLY_LINEAR                                            -4.833226   -6.684776   -3.025050         10                  20000              42              True
+TRUE_3P6V_CENSORED_ELECTRICAL_PLUS_AGE_HGB          AGE_ONLY_HGB_TUNED                                            -3.919577   -4.947931   -2.919341         10                  20000              42              True
+
+The battery bootstrap resamples 10 fixed held-out battery errors without refitting.

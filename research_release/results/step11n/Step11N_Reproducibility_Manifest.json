@@ -1,0 +1,33 @@
+{
+  "run": "step11n-matched3p6-v1",
+  "study": "true first downward 3.6-V constant-protocol discharge boundary",
+  "input_bundle_sha256": "6ab9c49cd9a6d60fc0acc4247e954e14fbe7ffb4219b8436b5790bda02d8f272",
+  "eligibility_count": 4589,
+  "excluded_vs_original_4590": [
+    {
+      "battery_id": "CS2_34",
+      "Cycle_Index": 91
+    }
+  ],
+  "target_based_scope": "original 70-100% SoH study subset; NOT a target-unrestricted deployment test",
+  "baseline_training_subset": "All 9 non-held-out batteries, 3.6V-eligible cycles only",
+  "test_subset": "The retained 3.6V-eligible cycles for the held-out battery",
+  "hgb_age_covariates": [
+    "Cycle_Age",
+    "Log_Cycle_Age"
+  ],
+  "linear_age_covariates": [
+    "Cycle_Age"
+  ],
+  "training_mean": "equal arithmetic mean of 9 training-battery mean SoHs",
+  "linear": "battery-weighted sklearn LinearRegression; no clipping",
+  "age_hgb": "training-only inner battery LOBO among H0/H1/H2; no electrical inputs",
+  "original_hgb": "frozen TRUE_3P6V_CENSORED Step11G predictions; no retraining",
+  "metric": "arithmetic mean across battery-specific RMSEs / MAEs; NOT pooled cycle RMSE",
+  "paired_uncertainty": "20,000 battery resamples of the 10 per-battery RMSE differences; no refits",
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "sklearn": "1.6.1",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+}

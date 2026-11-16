@@ -1,0 +1,11 @@
+outer_holdout_battery,source_dataset,n_outer_test_cycles_step11o,outer_train_batteries,validation_design,provenance
+B0005,NASA,168,B0006|B0007|B0018|CS2_33|CS2_34|CS2_35|CS2_36|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+B0006,NASA,168,B0005|B0007|B0018|CS2_33|CS2_34|CS2_35|CS2_36|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+B0007,NASA,168,B0005|B0006|B0018|CS2_33|CS2_34|CS2_35|CS2_36|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+B0018,NASA,132,B0005|B0006|B0007|CS2_33|CS2_34|CS2_35|CS2_36|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+CS2_33,CALCE,866,B0005|B0006|B0007|B0018|CS2_34|CS2_35|CS2_36|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+CS2_34,CALCE,776,B0005|B0006|B0007|B0018|CS2_33|CS2_35|CS2_36|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+CS2_35,CALCE,932,B0005|B0006|B0007|B0018|CS2_33|CS2_34|CS2_36|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+CS2_36,CALCE,973,B0005|B0006|B0007|B0018|CS2_33|CS2_34|CS2_35|CS2_37|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+CS2_37,CALCE,1038,B0005|B0006|B0007|B0018|CS2_33|CS2_34|CS2_35|CS2_36|CS2_38,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log
+CS2_38,CALCE,1078,B0005|B0006|B0007|B0018|CS2_33|CS2_34|CS2_35|CS2_36|CS2_37,leave_one_battery_out,reconstructed deterministically from archived predictions; not original run log

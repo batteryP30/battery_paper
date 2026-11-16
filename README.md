@@ -102,3 +102,23 @@ The generated files use the exact `Fig1_...png` through `Fig7_...png` names in t
 - Original data, MATLAB/Excel workbook examples, NASA native-to-CSV conversions, and original checkpoints are not bundled or invented.
 
 See `battery_soh_reproducibility/MANUSCRIPT_CODE_MAP.md`, `CODE_PROVENANCE.md`, `REPRODUCIBILITY_LIMITATIONS.md`, and `VERIFICATION.md` for exact provenance and validation status. A file-by-file preserved/modified/added list is provided in `FILE_CHANGE_REPORT.csv`.
+
+## Recovered reviewer artifacts and reproducibility release candidate
+
+`research_release/` contains a **provisional, locally verified collection** of
+preserved outputs from the final November 2026 reviewer experiments, observation-
+indexed predictions, reconstructed label values, fold design records, and hashes.
+See [`research_release/README.md`](research_release/README.md) and
+[`research_release/GAPS_AND_LIMITATIONS.md`](research_release/GAPS_AND_LIMITATIONS.md).
+
+**Do not cite this directory as a complete, independently rerun raw-data
+reproduction or as a published DOI deposit.** The original 708 MB study-input
+archive, some original feature-selection logs and parts of the raw-source
+conversion provenance are unavailable in this snapshot. A DOI and immutable
+release tag must be added only after actual publication and verification.
+
+Check the archived numerical evidence with:
+
+```bash
+python research_release/tools/verify_release.py
+```
