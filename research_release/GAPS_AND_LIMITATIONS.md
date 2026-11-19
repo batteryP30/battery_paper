@@ -28,5 +28,3 @@ features can encode indirect capacity information; do not call them capacity-
 independent. CALCE variable observations describe retrospective macro-cycle
 characterization, whereas NASA RW3-RW6 use pre-reference measurements. Their
 combined average is descriptive, not a homogeneous prospective benchmark.
-
-
