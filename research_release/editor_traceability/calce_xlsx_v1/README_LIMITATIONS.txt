@@ -1,0 +1,1 @@
+CALCE source workbook verification from the preserved 231 XLSX files using exact Step11A target-reconstruction functions. This is a source-to-target audit, not a full feature-engineering/model refit. Source workbooks themselves are not redistributed.
