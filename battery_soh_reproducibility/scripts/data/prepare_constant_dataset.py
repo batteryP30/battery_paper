@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 """Reconstruct the constant-protocol dataset and trivial baselines.
 
-This is the publication version of the validated Step 5 workflow. It rebuilds
-capacity-based SoH from raw current/time measurements, does not use source SoH
-fields, does not perform target-inspection cleaning, applies the 70--100% range
-only as a study scope, and freezes the 335 strict-safe candidate features.
+It rebuilds capacity-based SoH from raw current/time measurements, does not use 
+source SoH fields, does not perform target-inspection cleaning, applies the 
+70--100% range only as a study scope, and freezes the 335 strict-safe candidate features.
 """
 from __future__ import annotations
 

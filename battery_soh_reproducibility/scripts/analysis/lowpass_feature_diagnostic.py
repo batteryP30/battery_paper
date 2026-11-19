@@ -1,9 +1,9 @@
 """Inspect matched five-sample step-wise smoothing prior to derivative extraction.
 
-This is a raw-data diagnostic, NOT a replacement for the archived full
-Step 11HB matched-training/noise-retraining experiment. It compares electrical
+This is a raw-data diagnostic and it compares electrical
 features obtained from the same raw cycle before/after the fixed filter.
 """
+
 from __future__ import annotations
 import argparse
 from pathlib import Path

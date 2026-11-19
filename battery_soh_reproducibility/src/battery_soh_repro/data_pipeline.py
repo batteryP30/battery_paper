@@ -3,7 +3,7 @@
 This module consolidates the scientifically retained preprocessing logic used by
 the final constant- and variable-protocol analyses. Function bodies are carried
 forward from the validated Step 3/Step 5 workflows; only notebook/Google Drive
-I/O has been removed.
+I/O is excluded.
 
 The module intentionally exposes the broader engineered feature space. The
 strict, partial-observation, and history-assisted admissibility decisions are

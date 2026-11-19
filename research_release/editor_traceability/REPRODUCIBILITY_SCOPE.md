@@ -13,4 +13,4 @@
 | Published v0.9.0 manifest | 57 hashes: 45 exact on Linux, 12 LF/CRLF-only by reverse-transform | `verify_release_portable.py` | Exact published hash held intact; no unexplained mismatch |
 | Original NASA upstream native format | NASA native `.mat` not present in `collab.zip` | Requires separate native-to-study CSV reconstruction with independent SHA-256 / row comparison | Not verified |
 
-**Never phrase the status as “all experiments independently reproduced”**. The essential traceability achieved is from eight *preserved study-format NASA CSVs* through re-integrated reference capacities and archived targets to keyed held-out results, with the above limitations. Model refitting and native source conversion are separate reproducibility levels.
+The essential traceability achieved is from eight *preserved study-format NASA CSVs* through re-integrated reference capacities and archived targets to keyed held-out results, with the above limitations. Model refitting and native source conversion are separate reproducibility levels.

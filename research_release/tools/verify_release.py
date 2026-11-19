@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check integrity and archived predictions; do NOT claim full raw reconstruction."""
+"""Check integrity and archived predictions"""
 import csv
 import hashlib
 import math

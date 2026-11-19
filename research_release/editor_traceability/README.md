@@ -1,4 +1,4 @@
-# Academic-editor traceability evidence (post-deposit addendum)
+# Academic-editor traceability evidence
 
 **Status:** Prepared for a future GitHub/Zenodo version *after* the published v0.9.0 release. These materials are **not included** in DOI `10.5281/zenodo.24286732` until uploaded as a new record version. Do not cite v0.9.0 as containing the files in this directory.
 

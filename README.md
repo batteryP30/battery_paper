@@ -2,7 +2,7 @@
 
 Local Python implementation accompanying **Battery-Level and Cross-Dataset Generalization of Data-Driven Lithium-Ion Battery State-of-Health Estimation**.
 
-This revision **preserves the original experimental code** and adds source-code implementations of the later battery-held-out, partial-observation, sequence-model, protocol-completeness, and diagnostic studies. It contains **no Jupyter notebooks and no Google Colab runtime dependencies**.
+This preserves the original experimental code and adds source-code implementations of the later battery-held-out, partial-observation, sequence-model, protocol-completeness, and diagnostic studies.
 
 ## Install
 
@@ -94,18 +94,18 @@ The generated files use the exact `Fig1_...png` through `Fig7_...png` names in t
 
 ## Scientific interpretation
 
-- The historical "strict" full-discharge features exclude explicit target integrals but **are not claimed statistically capacity-independent**. Full-discharge slopes can encode indirect reciprocal-capacity information.
-- The 600-s and true-3.6-V studies compute current-cycle features **only** from the observed discharge prefix, and do not transfer post-boundary feature values.
-- The CALCE charge/discharge screen is **post hoc**. A missing logger record is not proof of physical charging failure. Screened results supplement, rather than replace, the primary study.
+- The historical "strict" full-discharge features exclude explicit target integrals but are not claimed statistically capacity-independent. Full-discharge slopes can encode indirect reciprocal-capacity information.
+- The 600-s and true-3.6-V studies compute current-cycle features only from the observed discharge prefix, and do not transfer post-boundary feature values.
+- The CALCE charge/discharge screen is post hoc. A missing logger record is not proof of physical charging failure. Screened results supplement, rather than replace, the primary study.
 - LSTM and Transformer models use 96-point raw discharge-prefix sequences while HGB uses engineered indicators; their differences do not isolate architecture alone.
 - Persistence uses a prior measured reference target from the same test battery. Its first observation is excluded from common-subset comparisons.
 - Original data, MATLAB/Excel workbook examples, NASA native-to-CSV conversions, and original checkpoints are not bundled or invented.
 
 See `battery_soh_reproducibility/MANUSCRIPT_CODE_MAP.md`, `CODE_PROVENANCE.md`, `REPRODUCIBILITY_LIMITATIONS.md`, and `VERIFICATION.md` for exact provenance and validation status. A file-by-file preserved/modified/added list is provided in `FILE_CHANGE_REPORT.csv`.
 
-## Recovered reviewer artifacts and reproducibility release candidate
+## Artifacts and reproducibility release candidate
 
-`research_release/` contains a **provisional, locally verified collection** of
+`research_release/` contains a provisional, locally verified collection of
 preserved outputs from the final November 2026 reviewer experiments, observation-
 indexed predictions, reconstructed label values, fold design records, and hashes.
 See [`research_release/README.md`](research_release/README.md) and

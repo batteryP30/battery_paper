@@ -3,7 +3,7 @@
 
 This is an archived evidence verification. The full source-workbook reconstruction
 is performed by notebooks/CALCE_Source_to_Target_Verification_Colab.ipynb using
-user-provided collab.zip, not by this script.
+user-provided collab.zip.
 """
 from __future__ import annotations
 import argparse, hashlib, json, sys
