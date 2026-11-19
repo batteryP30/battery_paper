@@ -28,12 +28,3 @@ features can encode indirect capacity information; do not call them capacity-
 independent. CALCE variable observations describe retrospective macro-cycle
 characterization, whereas NASA RW3-RW6 use pre-reference measurements. Their
 combined average is descriptive, not a homogeneous prospective benchmark.
-
-## Before manuscript submission
-
-The November 16 LaTeX draft included a **placeholder** Zenodo DOI
-(`10.5281/zenodo.XXXXXXX`) and an assertion that an archive already exists.
-Do not submit that language. Update Section 4.13 and the Data Availability
-Statement only once a real, complete public version can be downloaded and
-verified. The author should discuss any unresolvable original-input boundary
-with the editor before describing the release as fully reproducible.
