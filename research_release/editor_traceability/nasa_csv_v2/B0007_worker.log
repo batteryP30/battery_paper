@@ -1,0 +1,17 @@
+{
+  "battery": "B0007",
+  "task": "constant",
+  "reference_Ah": 1.9186612348565528,
+  "tests": {
+    "rows": 168,
+    "maximum_absolute_differences": {
+      "Measured_Discharge_Capacity_Ah": 4.440892098500626e-16,
+      "Reference_Capacity_Ah": 2.220446049250313e-16,
+      "Calculated_SOH(%)": 1.4210854715202004e-14,
+      "Duration_s": 0.0
+    }
+  },
+  "valid_targets": 168,
+  "status": "PASS"
+}
+

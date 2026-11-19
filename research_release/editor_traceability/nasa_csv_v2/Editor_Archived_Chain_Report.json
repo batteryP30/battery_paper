@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "archived Step11A -> reconstructed targets -> Step11O/Step11N OOF and split/config checks; NOT raw-input rebuild",
+  "constant_raw_candidate_cycles": 6322,
+  "constant_raw_qc_valid_cycles": 6299,
+  "constant_targets_matching_step11o": 6299,
+  "nasa_reference_events": 73,
+  "nasa_primary_pre_reference_intervals": 47,
+  "nasa_rw_cycles_mapped": 2607,
+  "nasa_reference_ah": {
+    "B0005": 1.861951950365522,
+    "B0006": 2.05197810816213,
+    "B0007": 1.918661234856553,
+    "B0018": 1.868527668789764,
+    "RW3": 4.011886890277778,
+    "RW4": 3.948668852777778,
+    "RW5": 3.932915277777778,
+    "RW6": 3.848791011111112
+  },
+  "step11o_observations": 6299,
+  "step11o_models": 5,
+  "step11n_observations": 4589,
+  "step11n_models": 5,
+  "outer_design_folds": 10,
+  "inner_design_folds": 90,
+  "saved_selected_feature_configurations": 20,
+  "limitations": [
+    "NASA original .mat to exported CSV conversion not independently reconstructed",
+    "Archived split design is deterministic, not original inner-CV run history",
+    "Step11O saved OOF can be audited but raw model refitting cannot be certified without original measurement exports"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "manifest_exact_files": 45,
+  "manifest_eol_equivalent_files": 12,
+  "manifest_unexplained_files": 0,
+  "original_verifier_exit_code": 1,
+  "numerical_validation_passed": true,
+  "numerical_validation_mode": "NUMERICAL_CHECKS_PASS_WITH_PROVEN_EOL_MANIFEST_DIFFERENCES",
+  "warning": "Line-ending equivalence is not an exact-byte SHA256 match. Fix Git-tracked release manifest in next deposit; never describe v0.9.0 as byte-identical if differences exist."
+}

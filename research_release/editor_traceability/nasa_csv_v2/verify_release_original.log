@@ -1,0 +1,12 @@
+FAIL: SHA256 changed: research_release/ARTIFACT_INVENTORY.csv
+Traceback (most recent call last):
+  File "/content/nasa_source_verification/battery_paper/research_release/tools/verify_release.py", line 93, in <module>
+    try:main()
+        ~~~~^^
+  File "/content/nasa_source_verification/battery_paper/research_release/tools/verify_release.py", line 61, in main
+    check_manifest()
+    ~~~~~~~~~~~~~~^^
+  File "/content/nasa_source_verification/battery_paper/research_release/tools/verify_release.py", line 31, in check_manifest
+    assert value==expected,f'SHA256 changed: {relative}'
+           ^^^^^^^^^^^^^^^
+AssertionError: SHA256 changed: research_release/ARTIFACT_INVENTORY.csv

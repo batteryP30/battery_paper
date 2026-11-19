@@ -1,0 +1,214 @@
+[
+  {
+    "battery": "B0005",
+    "task": "constant",
+    "reference_Ah": 1.8619519503655222,
+    "tests": {
+      "rows": 168,
+      "maximum_absolute_differences": {
+        "Measured_Discharge_Capacity_Ah": 4.440892098500626e-16,
+        "Reference_Capacity_Ah": 2.220446049250313e-16,
+        "Calculated_SOH(%)": 1.4210854715202004e-14,
+        "Duration_s": 0.0
+      }
+    },
+    "valid_targets": 168,
+    "status": "PASS",
+    "source_sha256": "8edf4c72b185597f2ae6b3b66deb18b5dc28d904ab2003e5815bf63d96951912",
+    "source_size_bytes": 8624073,
+    "worker_returncode": 0
+  },
+  {
+    "battery": "B0006",
+    "task": "constant",
+    "reference_Ah": 2.0519781081621304,
+    "tests": {
+      "rows": 168,
+      "maximum_absolute_differences": {
+        "Measured_Discharge_Capacity_Ah": 4.440892098500626e-16,
+        "Reference_Capacity_Ah": 4.440892098500626e-16,
+        "Calculated_SOH(%)": 1.4210854715202004e-14,
+        "Duration_s": 0.0
+      }
+    },
+    "valid_targets": 168,
+    "status": "PASS",
+    "source_sha256": "453215eb1d9b09788aa015d4f8b1426cfdf0dd86eeca389ef4f450274598da33",
+    "source_size_bytes": 8624937,
+    "worker_returncode": 0
+  },
+  {
+    "battery": "B0007",
+    "task": "constant",
+    "reference_Ah": 1.9186612348565528,
+    "tests": {
+      "rows": 168,
+      "maximum_absolute_differences": {
+        "Measured_Discharge_Capacity_Ah": 4.440892098500626e-16,
+        "Reference_Capacity_Ah": 2.220446049250313e-16,
+        "Calculated_SOH(%)": 1.4210854715202004e-14,
+        "Duration_s": 0.0
+      }
+    },
+    "valid_targets": 168,
+    "status": "PASS",
+    "source_sha256": "6eef5baf78e1b61e0639a38316f9431f06b77374594d55c2e87a132155980c99",
+    "source_size_bytes": 8624964,
+    "worker_returncode": 0
+  },
+  {
+    "battery": "B0018",
+    "task": "constant",
+    "reference_Ah": 1.8685276687897638,
+    "tests": {
+      "rows": 132,
+      "maximum_absolute_differences": {
+        "Measured_Discharge_Capacity_Ah": 4.440892098500626e-16,
+        "Reference_Capacity_Ah": 2.220446049250313e-16,
+        "Calculated_SOH(%)": 1.4210854715202004e-14,
+        "Duration_s": 0.0
+      }
+    },
+    "valid_targets": 132,
+    "status": "PASS",
+    "source_sha256": "24173eb03c86763e254e671c445fd6edb70d7d8b644afe4a6e80c1be264808f4",
+    "source_size_bytes": 5959334,
+    "worker_returncode": 0
+  },
+  {
+    "battery": "RW3",
+    "task": "random_walk",
+    "reference_Ah": 4.011886890277778,
+    "tests": {
+      "reference_events": {
+        "rows": 22,
+        "maximum_absolute_differences": {
+          "Reference_Capacity_Ah": 4.440892098500626e-16,
+          "Baseline_Reference_Capacity_Ah": 0.0,
+          "Calculated_SOH(%)": 1.4210854715202004e-14,
+          "Reference_Epoch": 0.0,
+          "Reference_Start_Row": 0.0,
+          "Reference_End_Row": 0.0,
+          "PreReference_RW_Cycles": 0.0
+        }
+      },
+      "cycle_map": {
+        "rows": 814,
+        "maximum_absolute_differences": {
+          "Calculated_SOH(%)": 1.4210854715202004e-14,
+          "Reference_Epoch": 0.0,
+          "Interval_Position": 0.0,
+          "Interval_Total_Cycles": 0.0
+        }
+      }
+    },
+    "reference_event_count": 22,
+    "mapped_cycles": 814,
+    "status": "PASS",
+    "source_sha256": "00400651c0d610bc5ea63884d15e42b1102acfbeceaa71884ecf97c51ed29aa6",
+    "source_size_bytes": 595746945,
+    "worker_returncode": 0
+  },
+  {
+    "battery": "RW4",
+    "task": "random_walk",
+    "reference_Ah": 3.948668852777778,
+    "tests": {
+      "reference_events": {
+        "rows": 19,
+        "maximum_absolute_differences": {
+          "Reference_Capacity_Ah": 4.440892098500626e-16,
+          "Baseline_Reference_Capacity_Ah": 0.0,
+          "Calculated_SOH(%)": 7.105427357601002e-15,
+          "Reference_Epoch": 0.0,
+          "Reference_Start_Row": 0.0,
+          "Reference_End_Row": 0.0,
+          "PreReference_RW_Cycles": 0.0
+        }
+      },
+      "cycle_map": {
+        "rows": 694,
+        "maximum_absolute_differences": {
+          "Calculated_SOH(%)": 7.105427357601002e-15,
+          "Reference_Epoch": 0.0,
+          "Interval_Position": 0.0,
+          "Interval_Total_Cycles": 0.0
+        }
+      }
+    },
+    "reference_event_count": 19,
+    "mapped_cycles": 694,
+    "status": "PASS",
+    "source_sha256": "9e6eb2247542162c3123c2c25ec846d7eacad0100dc1659ba410ffe66fdd0391",
+    "source_size_bytes": 501729069,
+    "worker_returncode": 0
+  },
+  {
+    "battery": "RW5",
+    "task": "random_walk",
+    "reference_Ah": 3.932915277777778,
+    "tests": {
+      "reference_events": {
+        "rows": 21,
+        "maximum_absolute_differences": {
+          "Reference_Capacity_Ah": 4.440892098500626e-16,
+          "Baseline_Reference_Capacity_Ah": 0.0,
+          "Calculated_SOH(%)": 1.4210854715202004e-14,
+          "Reference_Epoch": 0.0,
+          "Reference_Start_Row": 0.0,
+          "Reference_End_Row": 0.0,
+          "PreReference_RW_Cycles": 0.0
+        }
+      },
+      "cycle_map": {
+        "rows": 715,
+        "maximum_absolute_differences": {
+          "Calculated_SOH(%)": 1.4210854715202004e-14,
+          "Reference_Epoch": 0.0,
+          "Interval_Position": 0.0,
+          "Interval_Total_Cycles": 0.0
+        }
+      }
+    },
+    "reference_event_count": 21,
+    "mapped_cycles": 715,
+    "status": "PASS",
+    "source_sha256": "9ca8204f081a9baa8290d7d1a5751935dc7fb39d0a7b6cc48155ef4382423772",
+    "source_size_bytes": 537071497,
+    "worker_returncode": 0
+  },
+  {
+    "battery": "RW6",
+    "task": "random_walk",
+    "reference_Ah": 3.848791011111112,
+    "tests": {
+      "reference_events": {
+        "rows": 11,
+        "maximum_absolute_differences": {
+          "Reference_Capacity_Ah": 4.440892098500626e-16,
+          "Baseline_Reference_Capacity_Ah": 0.0,
+          "Calculated_SOH(%)": 1.4210854715202004e-14,
+          "Reference_Epoch": 0.0,
+          "Reference_Start_Row": 0.0,
+          "Reference_End_Row": 0.0,
+          "PreReference_RW_Cycles": 0.0
+        }
+      },
+      "cycle_map": {
+        "rows": 384,
+        "maximum_absolute_differences": {
+          "Calculated_SOH(%)": 1.4210854715202004e-14,
+          "Reference_Epoch": 0.0,
+          "Interval_Position": 0.0,
+          "Interval_Total_Cycles": 0.0
+        }
+      }
+    },
+    "reference_event_count": 11,
+    "mapped_cycles": 384,
+    "status": "PASS",
+    "source_sha256": "6a9a3941aa1473ab7dffd60aa855b8f1f2224bc1db321373d141f3e3c0a77c65",
+    "source_size_bytes": 327047077,
+    "worker_returncode": 0
+  }
+]

@@ -1,0 +1,32 @@
+Check,Actual,Expected,Passed
+Constant candidate target cycles,6322,6322,True
+Constant raw-QC pass,6299,6299,True
+Constant primary 70-100,4590,4590,True
+B0005 constant primary,163,163,True
+B0006 constant primary,104,104,True
+B0007 constant primary,168,168,True
+B0018 constant primary,132,132,True
+CS2_33 constant primary,614,614,True
+CS2_34 constant primary,601,601,True
+CS2_35 constant primary,656,656,True
+CS2_36 constant primary,641,641,True
+CS2_37 constant primary,728,728,True
+CS2_38 constant primary,783,783,True
+NASA RW reference events,73,73,True
+NASA RW raw-QC failures,0,0,True
+Variable pre-scope independent observations,307,307,True
+Variable primary independent observations,165,165,True
+Variable primary CALCE,118,118,True
+Variable primary NASA,47,47,True
+CS2_3 variable pre-scope,38,38,True
+CS2_9 variable pre-scope,200,200,True
+RW3 variable pre-scope,21,21,True
+RW4 variable pre-scope,18,18,True
+RW5 variable pre-scope,20,20,True
+RW6 variable pre-scope,10,10,True
+CS2_3 variable primary,26,26,True
+CS2_9 variable primary,92,92,True
+RW3 variable primary,13,13,True
+RW4 variable primary,12,12,True
+RW5 variable primary,13,13,True
+RW6 variable primary,9,9,True

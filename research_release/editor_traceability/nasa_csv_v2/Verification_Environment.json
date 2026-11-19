@@ -1,0 +1,31 @@
+{
+  "run_utc": "20261119T090719Z",
+  "github_repository": "https://github.com/batteryP30/battery_paper.git",
+  "github_tag": "v0.9.0",
+  "github_commit": "3b9cd85c959c9e6aa1461c3729d8e5a8e5fa23f6",
+  "archive_filename": "collab.zip",
+  "audit_embedded_sha256": "bfd8544ac6567ea99b64e9db9375ee8b6530459b670a5dbf62ec4cd751db2c72",
+  "per_battery_status": {
+    "B0005": "PASS",
+    "B0006": "PASS",
+    "B0007": "PASS",
+    "B0018": "PASS",
+    "RW3": "PASS",
+    "RW4": "PASS",
+    "RW5": "PASS",
+    "RW6": "PASS"
+  },
+  "downstream_checks": [
+    {
+      "script": "verify_release.py",
+      "exit_code": 1,
+      "numerical_validation_passed": true,
+      "mode": "NUMERICAL_CHECKS_PASS_WITH_PROVEN_EOL_MANIFEST_DIFFERENCES"
+    },
+    {
+      "script": "verify_editor_chain.py",
+      "exit_code": 0
+    }
+  ],
+  "scope": "NASA study CSV exports to archived Step11A/11N/11O; NO native MATLAB conversion or model refit"
+}

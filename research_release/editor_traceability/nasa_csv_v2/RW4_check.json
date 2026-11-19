@@ -1,0 +1,31 @@
+{
+  "battery": "RW4",
+  "task": "random_walk",
+  "reference_Ah": 3.948668852777778,
+  "tests": {
+    "reference_events": {
+      "rows": 19,
+      "maximum_absolute_differences": {
+        "Reference_Capacity_Ah": 4.440892098500626e-16,
+        "Baseline_Reference_Capacity_Ah": 0.0,
+        "Calculated_SOH(%)": 7.105427357601002e-15,
+        "Reference_Epoch": 0.0,
+        "Reference_Start_Row": 0.0,
+        "Reference_End_Row": 0.0,
+        "PreReference_RW_Cycles": 0.0
+      }
+    },
+    "cycle_map": {
+      "rows": 694,
+      "maximum_absolute_differences": {
+        "Calculated_SOH(%)": 7.105427357601002e-15,
+        "Reference_Epoch": 0.0,
+        "Interval_Position": 0.0,
+        "Interval_Total_Cycles": 0.0
+      }
+    }
+  },
+  "reference_event_count": 19,
+  "mapped_cycles": 694,
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+battery_id,archive_member,size_bytes,sha256,source_type,native_mat_conversion_verified
+B0005,B0005/B0005.csv,8624073,8edf4c72b185597f2ae6b3b66deb18b5dc28d904ab2003e5815bf63d96951912,preserved study-format CSV export,False
+B0006,B0006/B0006.csv,8624937,453215eb1d9b09788aa015d4f8b1426cfdf0dd86eeca389ef4f450274598da33,preserved study-format CSV export,False
+B0007,B0007/B0007.csv,8624964,6eef5baf78e1b61e0639a38316f9431f06b77374594d55c2e87a132155980c99,preserved study-format CSV export,False
+B0018,B0018/B0018.csv,5959334,24173eb03c86763e254e671c445fd6edb70d7d8b644afe4a6e80c1be264808f4,preserved study-format CSV export,False
+RW3,RW3/RW3.csv,595746945,00400651c0d610bc5ea63884d15e42b1102acfbeceaa71884ecf97c51ed29aa6,preserved study-format CSV export,False
+RW4,RW4/RW4.csv,501729069,9e6eb2247542162c3123c2c25ec846d7eacad0100dc1659ba410ffe66fdd0391,preserved study-format CSV export,False
+RW5,RW5/RW5.csv,537071497,9ca8204f081a9baa8290d7d1a5751935dc7fb39d0a7b6cc48155ef4382423772,preserved study-format CSV export,False
+RW6,RW6/RW6.csv,327047077,6a9a3941aa1473ab7dffd60aa855b8f1f2224bc1db321373d141f3e3c0a77c65,preserved study-format CSV export,False

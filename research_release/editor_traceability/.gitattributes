@@ -1,0 +1,4 @@
+*.csv -text
+*.json -text
+*.log -text
+*.sha256 -text

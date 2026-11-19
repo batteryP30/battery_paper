@@ -1,0 +1,7 @@
+NASA study CSV exports -> archived Step11A reconstruction -> preserved prediction verification.
+Raw battery measurements are NOT distributed in this ZIP.
+SHA-256 identifies the exact study-format CSVs processed.
+The released v0.9.0 reconstruction code was used; no models were refitted.
+Native NASA MATLAB -> study-format CSV conversion is NOT verified.
+Review Release_Manifest_Diagnostics.csv; any Git newline change is NOT a raw-byte SHA256 match.
+Review per-battery logs and Archive_Checks_Classification.json before asserting PASS.

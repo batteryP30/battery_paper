@@ -1,0 +1,16 @@
+PASS: archived capacity -> SoH -> observation -> fold/config -> OOF chain
+  constant_raw_candidate_cycles: 6322
+  constant_raw_qc_valid_cycles: 6299
+  constant_targets_matching_step11o: 6299
+  nasa_reference_events: 73
+  nasa_primary_pre_reference_intervals: 47
+  nasa_rw_cycles_mapped: 2607
+  step11o_observations: 6299
+  step11o_models: 5
+  step11n_observations: 4589
+  step11n_models: 5
+  outer_design_folds: 10
+  inner_design_folds: 90
+  saved_selected_feature_configurations: 20
+NOT VERIFIED: original NASA native-to-CSV conversion or full model refits
+Report written: /content/nasa_source_verification/results/20261119T090719Z/Editor_Archived_Chain_Report.json
